@@ -1,0 +1,25 @@
+$color-a: black;
+$color-hedline: aqua;
+nav a {
+  color: $color-a;
+}
+.headline {
+  background-color: $color-hedline;
+}
+
+li a {
+  color: black;
+}
+
+.button1 {
+  background-color: #0e6cff;
+  color: white;
+}
+.button2 {
+  background-color: #ff8700;
+  color: white;
+}
+.button3 {
+  background-color: #4caf50;
+  color: white;
+}

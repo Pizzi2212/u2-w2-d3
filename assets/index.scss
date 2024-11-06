@@ -1,0 +1,36 @@
+@import './partials/reset';
+
+@import './partials/font';
+
+@import './partials/colors';
+
+@import './partials/button';
+
+@import './partials/space';
+
+@import './partials/space';
+
+@import './partials/mixins';
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-image: url(./top-view-background-beautiful-white-grey-brown-cream-blue-background_140725-72219.avif);
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  .img {
+    text-align: center;
+  }
+  li {
+    text-align: center;
+    list-style: none;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+li {
+  list-style: none;
+}
